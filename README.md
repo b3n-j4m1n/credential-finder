@@ -2,7 +2,7 @@
 
 MITRE ATT&CK ID: T1081
 
-This tool will search recursively from the current directory for files or folders containing the strings "password" or "credential", and read files of specified file type(s) and return the line number, path, and line containing the same strings.
+This tool will search recursively from the current directory for file or folder names containing the strings "password" or "credential", and read files of specified file type(s) and return the line number, path, and line containing the same strings.
 
 ```
 Usage: go run main.go ...<extensions>
